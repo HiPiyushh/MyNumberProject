@@ -1,4 +1,4 @@
-package com.example.newtext
+package com.example.mynumber
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -17,7 +17,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 
 import androidx.compose.ui.unit.dp
-import com.example.newtext.ui.theme.NewTextTheme
+import com.example.mynumber.ui.theme.MyNumberTheme
 
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Column
@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            NewTextTheme {
+            MyNumberTheme() {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
